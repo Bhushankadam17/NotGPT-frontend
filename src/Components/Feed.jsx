@@ -30,7 +30,7 @@ const Feed = ({ feedState, setFeedState }) => {
     };
     try {
       const response = await fetch(
-        "http://localhost:5000/completions",
+        "https://notgpt-backend.onrender.com/completions",
         options
       );
       const data = await response.json();
