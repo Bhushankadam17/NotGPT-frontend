@@ -5,7 +5,7 @@ const Username = () => {
     <div className='flex w-full items-center'>
         <div className='grow'>
             <div className='group relative'>
-                <button className='flex w-full items-center gap-2 rounded-lg p-2 text-sm hover:bg-token-sidebar-surface-secondary  group-ui-open:bg-token-sidebar-surface-secondary'>
+                <button className='flex w-full items-center gap-2 rounded-lg p-2 text-sm hover:bg-gray-800  group-ui-open:bg-gray-800'>
                     <div className='flex-shrink-0'>
                         <div className='flex items-center justify-center overflow-hidden rounded-full'>
                             <div className='relative flex'>
@@ -13,7 +13,7 @@ const Username = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='relative -top-px grow -space-y-px overflow-hidden text-ellipsis whitespace-nowrap text-left text-token-text-primary'>
+                    <div className='relative -top-px grow -space-y-px overflow-hidden text-ellipsis whitespace-nowrap text-left text-gray-100'>
                     <div>Bhushan Kadam</div>
                     </div>
                 </button>

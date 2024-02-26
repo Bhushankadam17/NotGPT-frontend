@@ -2,10 +2,10 @@ import React from "react";
 
 const Upgrade = () => {
   return (
-    <div className="group flex gap-2 p-2.5 text-sm cursor-pointer focus:ring-0 radix-disabled:pointer-events-none radix-disabled:opacity-50 group items-center hover:bg-token-sidebar-surface-secondary m-0 rounded-lg px-2">
+    <div className="group flex gap-2 p-2.5 text-sm cursor-pointer focus:ring-0 radix-disabled:pointer-events-none radix-disabled:opacity-50 group items-center hover:bg-gray-800 m-0 rounded-lg px-2">
       <span className="flex w-full flex-row flex-wrap-reverse justify-between">
         <div className="flex items-center gap-2">
-          <span className="flex h-7 w-7 items-center justify-center rounded-full border border-token-border-light">
+          <span className="flex h-7 w-7 items-center justify-center rounded-full border ">
             <svg
               width="24"
               height="24"
@@ -26,7 +26,7 @@ const Upgrade = () => {
           </span>
           <div className="flex flex-col">
           <span>Upgrade plan</span>
-          <span className="text-xs text-token-text-tertiary line-clamp-1">Get GPT-4, DALL·E, and more</span>
+          <span className="text-xs text-gray-500 line-clamp-1">Get GPT-4, DALL·E, and more</span>
           </div>
         </div>
       </span>

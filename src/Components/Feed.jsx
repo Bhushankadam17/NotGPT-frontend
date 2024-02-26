@@ -159,7 +159,7 @@ const Feed = ({ feedState, setFeedState }) => {
       </ul>
       <div className="w-1/2 sticky bottom-0 left-0 right-0 z-30 pt-3.5">
         <div className="flex w-full items-center">
-          <div className="overflow-hidden [&:has(textarea:focus)]:border-token-border-xheavy [&:has(textarea:focus)]:shadow-[0_2px_6px_rgba(0,0,0,.05)] flex flex-col w-full dark:border-token-border-medium flex-grow relative border border-token-border-medium dark:text-white rounded-2xl bg-token-main-surface-primary">
+          <div className="overflow-hidden  flex flex-col w-full  flex-grow relative border dark:text-white rounded-2xl ">
             <textarea
               id="prompt-textarea"
               value={value}
@@ -172,7 +172,7 @@ const Feed = ({ feedState, setFeedState }) => {
               }
               tabIndex="0"
               rows="1"
-              placeholder="Message ChatGPT…"
+              placeholder="Message NotGPT"
               className="m-0 w-full resize-none bg-transparent focus:ring-0 focus-visible:ring-0 dark:bg-transparent max-h-25 py-[10px] pr-10 md:py-3.5 md:pr-12 placeholder-black/50 dark:placeholder-white/50 pl-3 md:pl-4"
               style={{ height: "22px", overflowX: "hidden" }}
             ></textarea>
@@ -203,7 +203,7 @@ const Feed = ({ feedState, setFeedState }) => {
         </div>
       </div>
       <div className="text-xs">
-        ChatGPT can make mistakes. Consider checking important information.
+        NotGPT can make mistakes. Its slow because its free :)
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ const Sidebar = ({feedState, setFeedState, createNewChat}) => {
   const uniqueTitles = Array.from(new Set(previousChats.map(previousChats => previousChats.title)))
   return (
     <div
-      className="flex-shrink-0 h-svh bg-sidebg overflow-hidden bg-token-sidebar-surface-primary"
+      className="flex-shrink-0 h-svh bg-sidebg overflow-hidden "
       style={{ width: "260px" }}
     >
       <div className="h-full w-[260px]">
@@ -45,7 +45,7 @@ const Sidebar = ({feedState, setFeedState, createNewChat}) => {
               <nav className="flex h-full w-full flex-col px-3 pb-3.5">
                 <div className="flex-col flex-1 overflow-hidden transition-opacity duration-500 -mr-2 pr-2 overflow-y-auto">
                   <Button handleButtonClick={handleButtonClick}/>
-                  <div className="flex flex-col gap-2 pb-2 text-token-text-primary text-sm">
+                  <div className="flex flex-col gap-2 pb-2  text-sm">
                     <div>
                       <span>
                         <div
