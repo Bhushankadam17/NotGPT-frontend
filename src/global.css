@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Resetting Margins and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: black;
+    overflow: hidden;   
+}
+
+/* Links Styles */
+a {
+    text-decoration: none;
+    /* or any other color you prefer */
+}
+
+/* List Styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Box Sizing */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Heading Styles */
+
+
+/* Button Styles */
+button,
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+/* Fix for buttons not inheriting text color */
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    color: inherit;
+}
+
+/* Fix for horizontal scrolling */
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* Remove default input styling */
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Disable text selection */
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
